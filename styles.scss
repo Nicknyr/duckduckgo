@@ -1,0 +1,142 @@
+
+@mixin section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  h2 {
+    padding-top: 25%;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  p {
+    padding-top: 1em;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: .8em;
+  }
+
+  .button-container {
+    margin: auto;
+    text-align: center;
+  }
+
+  button {
+    text-align: center;
+    width: 60%;
+    margin-top: 2em;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+body {
+  background-color: #F7F7F7;
+}
+
+.header {
+  float: right;
+
+  i {
+    color: #D3D3D3;
+    padding: .5em .2em;
+  }
+}
+
+.logo {
+  height: 10em;
+  text-align: center;
+  padding-top: 10em;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.searchbar {
+  text-align: center;
+  margin-top: .5em;
+  width: 100%;
+}
+
+#bar {
+  width: 90%;
+  border: 1px solid #D3D3D3;
+  height: 3em;
+
+}
+
+.tracking {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 12px;
+
+  p {
+    display: inline;
+  }
+
+}
+
+.buttons {
+  width: 100;
+  padding-top: 8em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin: auto;
+
+  button:nth-child(odd) {
+      background-color: #428bca;
+      color: white;
+      border: none;
+      height: 2.5em;
+      border-radius: 2px;
+      width: 30%;
+    }
+  button:nth-child(even) {
+      background-color: grey;
+      color: white;
+      border: none;
+      height: 2.5em;
+      border-radius: 2px;
+      width: 30%;
+    }
+}
+
+
+.section1 {
+  @include section;
+  background-color: #58B792;
+
+}
+
+.section2 {
+  @include section;
+  background-color: #F5A339;
+}
+
+.section3 {
+  @include section;
+  background-color: #5F63BD;
+}
+
+.section4 {
+  @include section;
+  background-color: #87CEF5;
+}

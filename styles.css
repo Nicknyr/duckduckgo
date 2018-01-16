@@ -1,0 +1,203 @@
+body {
+  background-color: #F7F7F7; }
+
+.header {
+  float: right; }
+  .header i {
+    color: #D3D3D3;
+    padding: .5em .2em; }
+
+.logo {
+  height: 10em;
+  text-align: center;
+  padding-top: 10em; }
+  .logo h1 {
+    margin: 0; }
+
+.searchbar {
+  text-align: center;
+  margin-top: .5em;
+  width: 100%; }
+
+#bar {
+  width: 90%;
+  border: 1px solid #D3D3D3;
+  height: 3em; }
+
+.tracking {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 12px; }
+  .tracking p {
+    display: inline; }
+
+.buttons {
+  width: 100;
+  padding-top: 8em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin: auto; }
+  .buttons button:nth-child(odd) {
+    background-color: #428bca;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    width: 30%; }
+  .buttons button:nth-child(even) {
+    background-color: grey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    width: 30%; }
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #58B792; }
+  .section1 h2 {
+    padding-top: 25%;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .section1 p {
+    padding-top: 1em;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: .8em; }
+  .section1 .button-container {
+    margin: auto;
+    text-align: center; }
+  .section1 button {
+    text-align: center;
+    width: 60%;
+    margin-top: 2em;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    font-weight: bold; }
+  .section1 img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #F5A339; }
+  .section2 h2 {
+    padding-top: 25%;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .section2 p {
+    padding-top: 1em;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: .8em; }
+  .section2 .button-container {
+    margin: auto;
+    text-align: center; }
+  .section2 button {
+    text-align: center;
+    width: 60%;
+    margin-top: 2em;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    font-weight: bold; }
+  .section2 img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #5F63BD; }
+  .section3 h2 {
+    padding-top: 25%;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .section3 p {
+    padding-top: 1em;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: .8em; }
+  .section3 .button-container {
+    margin: auto;
+    text-align: center; }
+  .section3 button {
+    text-align: center;
+    width: 60%;
+    margin-top: 2em;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    font-weight: bold; }
+  .section3 img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+.section4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #87CEF5; }
+  .section4 h2 {
+    padding-top: 25%;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .section4 p {
+    padding-top: 1em;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-size: .8em; }
+  .section4 .button-container {
+    margin: auto;
+    text-align: center; }
+  .section4 button {
+    text-align: center;
+    width: 60%;
+    margin-top: 2em;
+    background-color: slategrey;
+    color: white;
+    border: none;
+    height: 2.5em;
+    border-radius: 2px;
+    font-weight: bold; }
+  .section4 img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+/*# sourceMappingURL=styles.css.map */
