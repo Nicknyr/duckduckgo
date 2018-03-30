@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
-  background-color: #F7F7F7; }
+  background-color: #F7F7F7;
+  margin: 0; }
+
+.main {
+  height: 100vh; }
 
 .header {
   float: right; }
@@ -12,7 +17,10 @@ body {
   text-align: center;
   padding-top: 10em; }
   .logo h1 {
-    margin: 0; }
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #474747; }
 
 .searchbar {
   text-align: center;
@@ -23,6 +31,25 @@ body {
   width: 90%;
   border: 1px solid #D3D3D3;
   height: 3em; }
+
+.magnifying {
+  color: #D3D3D3;
+  width: 3em;
+  height: 2.5em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  display: inline-block;
+  position: absolute;
+  right: 345px; }
+  .magnifying:hover {
+    background-color: #66ad57;
+    color: white; }
+
+.fa-arrow-circle-down {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: white; }
 
 .tracking {
   text-align: center;
@@ -207,15 +234,10 @@ body {
     left: 0; }
 
 .menu {
-  width: 50%;
-  height: 100em;
+  height: 100%;
   background-color: #F7F7F7;
-  position: absolute;
-  z-index: 2;
-  left: 50%;
   border-left: 1px solid lightgrey;
-  font-size: .8em;
-  display: none; }
+  font-size: .8em; }
   .menu ul {
     list-style-type: none; }
     .menu ul li:nth-child(1) {
@@ -226,6 +248,23 @@ body {
       padding-bottom: .8em; }
 
 @media (min-width: 1200px) {
+  .menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; }
+    .menu .close-button {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 30px;
+      margin-left: 30px; }
+
   #bar {
     width: 45%; }
 
